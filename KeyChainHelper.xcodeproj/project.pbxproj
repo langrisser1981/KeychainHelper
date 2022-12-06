@@ -11,6 +11,8 @@
 		48E9E36A293ED26000961EF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9E369293ED26000961EF6 /* ContentView.swift */; };
 		48E9E36C293ED26100961EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E9E36B293ED26100961EF6 /* Assets.xcassets */; };
 		48E9E36F293ED26100961EF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E9E36E293ED26100961EF6 /* Preview Assets.xcassets */; };
+		48E9E376293ED2AD00961EF6 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9E375293ED2AD00961EF6 /* KeyChainService.swift */; };
+		48E9E379293EDAC600961EF6 /* KeyChainPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9E378293EDAC600961EF6 /* KeyChainPropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		48E9E369293ED26000961EF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48E9E36B293ED26100961EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E9E36E293ED26100961EF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48E9E375293ED2AD00961EF6 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		48E9E377293ED2DB00961EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		48E9E378293EDAC600961EF6 /* KeyChainPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainPropertyWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 		48E9E35B293ED26000961EF6 = {
 			isa = PBXGroup;
 			children = (
+				48E9E377293ED2DB00961EF6 /* README.md */,
 				48E9E366293ED26000961EF6 /* KeyChainHelper */,
 				48E9E365293ED26000961EF6 /* Products */,
 			);
@@ -53,6 +59,8 @@
 			children = (
 				48E9E367293ED26000961EF6 /* KeyChainHelperApp.swift */,
 				48E9E369293ED26000961EF6 /* ContentView.swift */,
+				48E9E375293ED2AD00961EF6 /* KeyChainService.swift */,
+				48E9E378293EDAC600961EF6 /* KeyChainPropertyWrapper.swift */,
 				48E9E36B293ED26100961EF6 /* Assets.xcassets */,
 				48E9E36D293ED26100961EF6 /* Preview Content */,
 			);
@@ -139,6 +147,8 @@
 			files = (
 				48E9E36A293ED26000961EF6 /* ContentView.swift in Sources */,
 				48E9E368293ED26000961EF6 /* KeyChainHelperApp.swift in Sources */,
+				48E9E379293EDAC600961EF6 /* KeyChainPropertyWrapper.swift in Sources */,
+				48E9E376293ED2AD00961EF6 /* KeyChainService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
